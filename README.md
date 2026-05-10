@@ -15,7 +15,7 @@
 ## 模板示例
 
 <p align="center">
-  <img src="images/template.png" alt="模板示例" width="550">
+  <img src="images/template.png" alt="模板示例" width="300">
 </p>
 
 ## 快速开始
