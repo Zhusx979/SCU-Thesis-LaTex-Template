@@ -14,7 +14,9 @@
 
 ## 模板示例
 
-![模板示例](images/template.png)
+<p align="center">
+  <img src="images/template.png" alt="模板示例" width="550">
+</p>
 
 ## 快速开始
 
