@@ -17,7 +17,7 @@
 1. 克隆仓库
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Zhusx979/SCU-Thesis-LaTex-Template.git
 cd scu_thesis_template
 ```
 
