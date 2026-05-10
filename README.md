@@ -12,6 +12,10 @@
 - `ref/refs.bib`：参考文献数据库示例
 - `images/`：封面和正文图片资源
 
+## 模板示例
+
+![模板示例](images/template.png)
+
 ## 快速开始
 
 1. 克隆仓库
@@ -39,6 +43,6 @@ xelatex -> bibtex -> xelatex -> xelatex
 
 
 ## 致谢
-本模板基于 dahakawang/scu_thesis_template 修改而来。原模板需要编辑多个文件，本模板将其简化为仅需维护一个 main.tex 文件，显著降低了使用复杂度。在此向原作者致以诚挚的感谢。
+本模板基于 [dahakawang/scu_thesis_template](https://github.com/dahakawang/scu_thesis_template) 修改而来。原模板需要编辑多个文件，本模板将其简化为仅需维护一个 main.tex 文件，显著降低了使用复杂度。在此向原作者致以诚挚的感谢。
 
 欢迎通过提交 Issue 的方式，帮助我们共同改进和完善本模板。

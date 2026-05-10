@@ -1,19 +1,3 @@
-%% BUPTThesis.bst
-%%
-%% 北京邮电大学研究生学位论文参考文献 BibTeX 样式
-%% 
-%% 项目主页：http://code.google.com/p/buptthesis/
-%% 
-%% 本样式基于 IEEEtran 和 ThuThesis 修改而成，基本满足北京邮电大学研究生论文格式要求
-%%
-%% 作者：
-%% 张煜 (email:dazzlezhang@gmail.com)
-%%
-%% 更新记录:
-%% $LastChangedBy: dazzlezhang $
-%% $LastChangedDate: 2009-05-08 21:36:34 +0800 (Fri, 08 May 2009) $
-%% $LastChangedRevision: 64 $
-
 %% 一些设置的缺省值
 % 英文姓名排版格式字符串, 按<last name全称>~<first name首字母><, Jr.>格式
 FUNCTION {default.name.format.string} {"{vv~}{ll}{~f}{, Jj}"}
