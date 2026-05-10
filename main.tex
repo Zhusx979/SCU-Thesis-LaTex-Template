@@ -1,0 +1,76 @@
+% !Mode:: "TeX:UTF-8"
+%
+% 使用说明：
+% 1. 先修改下方封面信息
+% 2. 再替换摘要、正文和总结
+% 3. 如需引用文献，请在正文中使用 \cite{...}，并维护 ref/refs.bib
+
+\documentclass[a4paper]{ctexrep}
+\usepackage{scuthesis}
+
+\title{文档正式标题}
+\titleEng{Fill in the English Title Here}
+\coverTitle{{四川大学XXX课程期末论文}}
+
+\author{XXX}
+\authorEng{Your Name}
+
+\adviser{XXX老师}
+\adviserEng{Supervisor Name}
+
+\studentLabel{学生}
+\studentLabelEng{Student}
+\adviserLabelEngLabel{Adviser}
+
+\college{软件学院}
+\collegeEng{School or College Name}
+
+\major{软件工程}
+\majorEng{Major Name}
+
+\grade{2023}
+
+\id{20231414XXXXX}
+\date{二〇二六年五月}
+
+\begin{document}
+\zihao{-4}
+
+\makecover
+
+\begin{abstract}{模板示例; 课程论文; LaTeX; 排版; 使用说明}
+本文为四川大学课程文档模板示例，用于帮助使用者快速理解项目结构、基本写法与排版方式。示例正文展示了封面信息填写、摘要撰写、章节组织、参考文献引用与总结写作等常见部分，便于在克隆仓库后直接基于模板进行修改。
+\end{abstract}
+
+\begin{abstractEng}{template example; course paper; LaTeX; typesetting; user guide}
+This document is a template example for academic or course-related writing at Sichuan University. It is intended to help new users quickly understand the repository structure, the basic writing pattern, and the overall typesetting style. The sample content demonstrates common sections such as cover information, abstracts, chapter organization, citation usage, and conclusion writing. After cloning the repository, users can replace the placeholder content step by step with their own title, abstract, body text, figures, and references while keeping the formatting consistent.
+\end{abstractEng}
+
+\tableofcontents
+
+\chapter{模板说明}
+\section{项目用途}
+本模板适用于课程论文、课程设计说明、实验报告、读书报告等需要正式排版的文档场景。模板已经预设了封面、摘要、目录、章节标题与参考文献等常用结构，使用者通常只需要在 \texttt{main.tex} 中替换内容即可开始撰写。
+
+\section{使用建议}
+第一次使用时，建议先不要修改样式文件，而是优先替换文档标题、作者信息、摘要与正文章节。这样可以先保证文档内容完整，再根据需要逐步调整格式细节。如果文档中需要引用参考文献，可以在正文中使用 \verb|\cite{example-book}| 这样的命令，并在 \texttt{ref/refs.bib} 中维护对应条目\cite{example-book}。
+
+\section{推荐修改顺序}
+为了减少上手成本，建议按以下顺序修改模板内容。首先填写封面与作者信息，其次替换中英文摘要，然后补充目录后的正文章节，最后再检查参考文献、图表编号和语言表达是否完整。
+
+\chapter{正文示例}
+
+\subsection{引用示例}
+如果需要在正文中引用书籍、论文或其他资料，可以在 \texttt{.bib} 文件中新增条目，然后在正文中通过 \verb|\cite{example-article}| 调用。例如，文档排版、结构组织和信息设计相关讨论可以通过参考资料支撑\cite{example-article}。
+
+\chapter{使用检查清单}
+\section{提交前建议检查的内容}
+在导出最终 PDF 之前，可以简单检查以下几个方面：封面信息是否正确、摘要是否完整、目录是否自动更新、章节编号是否连续、参考文献是否成功生成，以及示例占位文字是否已经全部替换。这样可以避免把模板原始文本误留在最终版本中。
+
+\chapter{总结}
+
+\clearpage
+\bibliographystyle{bstutf8}
+\bibliography{ref/refs}
+
+\end{document}
